@@ -9,3 +9,7 @@ services:
       - DEBUG=False
     volumes:
       - ./static:/app/staticfiles
+
+# To start the app run in the terminal:
+# docker compose build - to build an image
+# docker compose up -d - to start the containers 
